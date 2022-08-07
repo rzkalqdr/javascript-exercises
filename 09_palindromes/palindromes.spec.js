@@ -2,7 +2,7 @@ const palindromes = require('./palindromes')
 
 describe('palindromes', () => {
   test('works with single words', () => {
-    expect(palindromes('racecarz')).toBe(true);
+    expect(palindromes('racecar')).toBe(true);
   });
   test('works with punctuation ', () => {
     expect(palindromes('racecar!')).toBe(true);
